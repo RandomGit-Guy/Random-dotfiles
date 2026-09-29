@@ -11,5 +11,8 @@
     music = "$HOME/Music";
     pictures = "$HOME/Pictures";
     videos = "$HOME/Videos";
+
+    publicShare = null;
+    templates = null;
   };
 }
