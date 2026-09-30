@@ -26,9 +26,17 @@
       xclip
       libnotify
       xdotool
-      cmake
       pulseaudioFull
       pavucontrol
+
+      # C
+      cmake
+      gcc
+      valgrind
+      clang
+      clang-tools
+      gnumake
+      man-pages
       
       # Media
       mpv
