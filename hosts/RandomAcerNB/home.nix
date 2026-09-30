@@ -2,13 +2,13 @@
 
 {
   imports = [
-    ../../modules/nixos/home/home.nix
-    ../../modules/nixos/home/homePkgs.nix
-    ../../modules/nixos/home/xdg-configFile.nix
-    ../../modules/nixos/home/xdg-userDirs.nix
-    ../../modules/nixos/home/neovim.nix
-    ../../modules/nixos/home/libreoffice.nix
-    ../../modules/nixos/home/obsidian.nix
+    ../../modules/nixos/RandomAcerNB/home/home.nix
+    ../../modules/nixos/RandomAcerNB/home/homePkgs.nix
+    ../../modules/nixos/RandomAcerNB/home/xdg-configFile.nix
+    ../../modules/nixos/RandomAcerNB/home/xdg-userDirs.nix
+    ../../modules/nixos/RandomAcerNB/home/neovim.nix
+    ../../modules/nixos/RandomAcerNB/home/libreoffice.nix
+    ../../modules/nixos/RandomAcerNB/home/obsidian.nix
   ];
 
   programs.home-manager.enable = true;

@@ -32,11 +32,6 @@
       # C
       cmake
       gcc
-      valgrind
-      clang
-      clang-tools
-      gnumake
-      man-pages
       
       # Media
       mpv

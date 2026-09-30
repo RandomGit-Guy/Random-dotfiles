@@ -32,6 +32,21 @@
 	  }
         ];
       };
+      RandomDesktopPC = nixpkgs.lib.nixosSystem {
+        specialArgs = {inherit inputs; };
+        modules = [
+          ./hosts/RandomDesktopPC/configuration.nix
+          inputs.home-manager.nixosModules.default
+	  {
+	    home-manager = {
+              useGlobalPkgs = true;
+	      useUserPackages = true;
+	      extraSpecialArgs = { inherit inputs; };
+	      users.RandomGuy = import ./hosts/RandomDesktopPC/home.nix;
+	    };
+	  }
+        ];
+      };
     };
   };
 }
