@@ -5,9 +5,9 @@
 ## Autostart
 pkill -x sxhkd; sxhkd &
 feh --bg-fill "$HOME/nixos/backgrounds/def.png" &
-"$HOME/nixos/modules/dotfiles/polybar/scripts/launch.sh" &
+"$HOME/nixos/modules/RandomAcerNB/dotfiles/polybar/scripts/launch.sh" &
 dunst &
-picom --config "$HOME/nixos/dotfiles/picom/picom.conf" &
+picom --config "$HOME/nixos/dotfiles/RandomAcerNB/picom/picom.conf" &
 
 ## Workspaces
 bspc monitor -d 1 2 3 4 5

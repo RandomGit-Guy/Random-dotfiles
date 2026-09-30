@@ -4,18 +4,18 @@
   imports = [ 
       ./hardware-configuration.nix
       
-      ../../modules/nixos/RandomDesktopPC/system/systemPkgs.nix
-      ../../modules/nixos/RandomDesktopPC/system/fonts.nix
-      ../../modules/nixos/RandomDesktopPC/system/flatpak.nix
-      ../../modules/nixos/RandomDesktopPC/system/desktop.nix
-      ../../modules/nixos/RandomDesktopPC/system/fish.nix
-      ../../modules/nixos/RandomDesktopPC/system/experimental.nix
-      ../../modules/nixos/RandomDesktopPC/system/boot.nix
-      ../../modules/nixos/RandomDesktopPC/system/user.nix
-      ../../modules/nixos/RandomDesktopPC/system/locale.nix
-      ../../modules/nixos/RandomDesktopPC/system/network.nix
-      ../../modules/nixos/RandomDesktopPC/system/xdg.nix
-      ../../modules/nixos/RandomDesktopPC/system/audio.nix
+      ../../modules/RandomDesktopPC/nixos/system/systemPkgs.nix
+      ../../modules/RandomDesktopPC/nixos/system/fonts.nix
+      ../../modules/RandomDesktopPC/nixos/system/flatpak.nix
+      ../../modules/RandomDesktopPC/nixos/system/desktop.nix
+      ../../modules/RandomDesktopPC/nixos/system/fish.nix
+      ../../modules/RandomDesktopPC/nixos/system/experimental.nix
+      ../../modules/RandomDesktopPC/nixos/system/boot.nix
+      ../../modules/RandomDesktopPC/nixos/system/user.nix
+      ../../modules/RandomDesktopPC/nixos/system/locale.nix
+      ../../modules/RandomDesktopPC/nixos/system/network.nix
+      ../../modules/RandomDesktopPC/nixos/system/xdg.nix
+      ../../modules/RandomDesktopPc/nixos/system/audio.nix
   ];
 
   nixpkgs.config.allowUnfree = true;

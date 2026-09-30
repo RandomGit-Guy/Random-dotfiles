@@ -2,13 +2,13 @@
 
 {
   imports = [
-    ../../modules/nixos/RandomDesktopPC/home/home.nix
-    ../../modules/nixos/RandomDesktopPC/home/homePkgs.nix
-    ../../modules/nixos/RandomDesktopPC/home/xdg-configFile.nix
-    ../../modules/nixos/RandomDesktopPC/home/xdg-userDirs.nix
-    ../../modules/nixos/RandomDesktopPC/home/neovim.nix
-    ../../modules/nixos/RandomDesktopPC/home/libreoffice.nix
-    ../../modules/nixos/RandomDesktopPC/home/obsidian.nix
+    ../../modules/RandomDesktopPC/nixos/home/home.nix
+    ../../modules/RandomDesktopPC/nixos/home/homePkgs.nix
+    ../../modules/RandomDesktopPC/nixos/home/xdg-configFile.nix
+    ../../modules/RandomDesktopPC/nixos/home/xdg-userDirs.nix
+    ../../modules/RandomDesktopPC/nixos/home/neovim.nix
+    ../../modules/RandomDesktopPC/nixos/home/libreoffice.nix
+    ../../modules/RandomDesktopPC/nixos/home/obsidian.nix
   ];
 
   programs.home-manager.enable = true;

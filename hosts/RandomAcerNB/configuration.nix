@@ -4,18 +4,18 @@
   imports = [ 
       ./hardware-configuration.nix
       
-      ../../modules/nixos/RandomAcerNB/system/systemPkgs.nix
-      ../../modules/nixos/RandomAcerNB/system/fonts.nix
-      ../../modules/nixos/RandomAcerNB/system/flatpak.nix
-      ../../modules/nixos/RandomAcerNB/system/desktop.nix
-      ../../modules/nixos/RandomAcerNB/system/fish.nix
-      ../../modules/nixos/RandomAcerNB/system/experimental.nix
-      ../../modules/nixos/RandomAcerNB/system/boot.nix
-      ../../modules/nixos/RandomAcerNB/system/user.nix
-      ../../modules/nixos/RandomAcerNB/system/locale.nix
-      ../../modules/nixos/RandomAcerNB/system/network.nix
-      ../../modules/nixos/RandomAcerNB/system/xdg.nix
-      ../../modules/nixos/RandomAcerNB/system/audio.nix
+      ../../modules/RandomAcerNB/nixos/system/systemPkgs.nix
+      ../../modules/RandomAcerNB/nixos/system/fonts.nix
+      ../../modules/RandomAcerNB/nixos/system/flatpak.nix
+      ../../modules/RandomAcerNB/nixos/system/desktop.nix
+      ../../modules/RandomAcerNB/nixos/system/fish.nix
+      ../../modules/RandomAcerNB/nixos/system/experimental.nix
+      ../../modules/RandomAcerNB/nixos/system/boot.nix
+      ../../modules/RandomAcerNB/nixos/system/user.nix
+      ../../modules/RandomAcerNB/nixos/system/locale.nix
+      ../../modules/RandomAcerNB/nixos/system/network.nix
+      ../../modules/RandomAcerNB/nixos/system/xdg.nix
+      ../../modules/RandomAcerNB/nixos/system/audio.nix
   ];
 
   nixpkgs.config.allowUnfree = true;

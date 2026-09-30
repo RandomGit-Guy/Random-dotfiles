@@ -1,0 +1,51 @@
+# System #
+
+## Quit bspwm
+super + alt + q
+	bspc quit
+
+## Reload bspwm
+super + alt + r 
+        bspc wm -r
+
+# App Starter #
+
+## Launch terminal emulator
+super + Return
+        kitty	
+
+## Program launcher
+super + d
+        rofi -show run	
+
+# Window managing #
+
+## Close windows (w/ ask for save)
+super + q
+	bspc node -c
+
+## Swap focus for windows
+super + {h,j,k,l}
+	bspc node -f {west,south,north,east}
+
+## Swap windows
+super + shift + {h,j,k,l}
+	bspc node -s {west,south,north,east}
+
+## Set state for windows
+super + {t,shift+t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+## Make focused window biggest
+super + g
+	bspc node -s biggest.local
+
+# Workspace managing #
+
+## Focuse next/ prev workspace
+super + alt + {h,l}
+	bspc desktop -f {prev,next}
+
+## Move windows to next/ prev workspace
+super + alt + shift + {h,l}
+	bspc node -d {prev,next} --follow
