@@ -15,7 +15,7 @@
       ../../modules/RandomDesktopPC/nixos/system/locale.nix
       ../../modules/RandomDesktopPC/nixos/system/network.nix
       ../../modules/RandomDesktopPC/nixos/system/xdg.nix
-      ../../modules/RandomDesktopPc/nixos/system/audio.nix
+      ../../modules/RandomDesktopPC/nixos/system/audio.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
